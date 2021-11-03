@@ -26,6 +26,6 @@ async def on_message(message):
         await message.channel.send(response)
 
     response = client_states[message.author.name]
-    await message.channel.send(response)
+    await message.channel.send(response)  
 
 client.run(TOKEN)
