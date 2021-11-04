@@ -17,7 +17,7 @@ async def describir_opciones(id_nodo):
     if len(NODOS[id_nodo].next) != 0:
         response += "Opciones:\n"
         for i, path in enumerate(NODOS[id_nodo].next):
-            response += f"  Opcion {i}: {path.option}\n"
+            response += f"  Opcion {i+1}: {path.option}\n"
     else:
         response += "Para jugar de nuevo usa el comando $jugar."
 
@@ -39,10 +39,10 @@ async def on_message(message):
 
     if message.content.startswith("$instrucciones"):
         response = "```Instrucciones:\n" + \
-                   "  $jugar: para empezar una nueva partida\n" + \
-                   "  $reiniciar: para reiniciar la partida que tienes\n" + \
+                   "  $jugar: para empezar una nueva partida.\n" + \
+                   "  $reiniciar: para reiniciar la partida que tienes.\n" + \
                    "  $repetir: tal vez no juegas desde varios días y necesitas saber donde habías quedado.\n" + \
-                   "  $elegir X: cuando te den la opcion de elegir, se usa este comando reemplazando X por la opcion que desees.```"
+                   "  $elegir X: cuando te den la opción de elegir, se usa este comando reemplazando X por la opción que desees.```"
     
 
     if message.content.startswith("$elegir"):
@@ -52,7 +52,7 @@ async def on_message(message):
 
         else:
             try:
-                opcion = int(message.content.split(' ')[1])
+                opcion = int(message.content.split(' ')[1]) - 1
 
                 if 0 <= opcion < len(NODOS[client_states[message.author.name]].next): # opcion valida
                     client_states[message.author.name] = NODOS[client_states[message.author.name]].next[opcion].id
