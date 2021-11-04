@@ -2,6 +2,7 @@
 import os
 from dotenv import load_dotenv
 import discord
+from discord.utils import find
 from nodos import NODOS # diccionario con id:Nodo
 
 
@@ -23,6 +24,13 @@ async def describir_opciones(id_nodo):
 
     return response + "```"
 
+@client.event
+async def on_guild_join(guild):
+    general = find(lambda x: x.name == 'general',  guild.text_channels)
+    if general and general.permissions_for(guild.me).send_messages:
+        response = "Juego Interactivo has joined the server!" + \
+                   "Para más información escriba el comando $instrucciones."
+        await general.send(response)
 
 @client.event
 async def on_ready():
