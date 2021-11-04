@@ -24,15 +24,21 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
                   [Path(9, "Intentar un nuevo ataque")]),
           11: Nodo("Tu espada se rompe y la pandilla te golpea hasta dejarte en el suelo, inconsciente. Un aldeando pasa cerca tuyo, no tienes ninguna de las cosas que traías.",
                   [Path(7, "Los daños no son severos así que buscas descansar donde estás para recuperarte"), Path(12, "Llamas la atención del aldeano")]),
-          12: Nodo("Le cuentas que eres el heroe, pero por el estado en el que te ve parece no creerte. Te ayuda a levantarte.",
-                  [Path(13, "Seguir luchando contra obstaculos")]),
-          13: Nodo("La gente se enamora de ti y se unen a luchar contigo",
+          12: Nodo("Le cuentas que eres el heroe, pero por el estado en el que te ve parece no creerte. Te ayuda a levantarte. \n"
+                   "El aldeano te lleva a su casa, durante el camino le diste más detalles de lo que sabes y de lo que pasó, el hombre después de un rato comienza a creer tu historia.\n"
+                   "Te cuenta que por estos lugares la vida siempre a sido cruel e injusta, sería bueno que el  héroe les perestara su fuerza...\n"
+                   "Luego de contar tu historia al hombre, te das cuenta que no puedes hacer esto solo",
+                  [Path(13, "Le cuentas al hombre que necesitas ayuda,")]),
+          13: Nodo("El hombre resultó ser el alcade de la pequeña localidad, decide ayudarte... Pronto se corre la voz entre los necesitados. Luego de unos días se ha reunido un buen pelotón de gente. "
+                   "La gente harta de los malos tratos que resive por parte de la aristocracia decide confiar en tí, ven una pequeña luz de esperanzas de acabar con su sufrimiente.",
                   [Path(14, "Ir con tus nuevos amigos a derrocar a la aristocracia "), Path(16, "Entrenar más antes de atacar")]),
           14: Nodo("Todos los miembros de tu comitiva luchan con ahínco. Sin embargo, la falta de habilidad es notoria.",
                   [Path(15, "seguir luchando contra la gran defensa aristocrática")]),
           15: Nodo("Eres brutalmente superado en fuerza y derrotado",
                   []),
-          16: Nodo("Llegas al palacio con una fuerza imparable y suficiente para conquistarlo. Todos cantan por el heroe.",
+          16: Nodo("Han pasado unos meses de arduo entrenamiento, haz compartido, sufrido y superados obstaculos junto a tus camaradas "
+                   "finalmente se preparan para marchar al palacio. Luego de una larga marcha y escaramuzas llegas al palacio con una fuerza"
+                   " imparable y suficiente para conquistarlo. Todos cantan por el heroe.",
                   [Path(17, "Rechazar el canto y lideras la exploración del palacio"), Path(19, "El grupo necesita relajarte, asumir la posición de heroe y unirte a al festejo")]),
           17: Nodo("Satisfecho con tu desición, caminas por los grandes pasillos del palacio",
                   [Path(18, "Seguir explorando en busca de fugitivos")]),
