@@ -28,7 +28,7 @@ async def describir_opciones(id_nodo):
 async def on_guild_join(guild):
     general = find(lambda x: x.name == 'general',  guild.text_channels)
     if general and general.permissions_for(guild.me).send_messages:
-        response = "Juego Interactivo has joined the server!" + \
+        response = "Juego Interactivo has joined the server! " + \
                    "Para más información escriba el comando $instrucciones."
         await general.send(response)
 
