@@ -1,5 +1,7 @@
 # DiscordBot
 
+Aga click [acá](https://discord.com/api/oauth2/authorize?client_id=905558590042013727&permissions=0&scope=bot) para invitar al bot al servidor de Discord.
+
 ## -NOMBRE JUEGO-
 
 Descripcion del juego
@@ -12,9 +14,7 @@ Integrantes:
 * Gary Fredes
 * Camilo Berríos
 
-Aga click [acá](https://discord.com/api/oauth2/authorize?client_id=905558590042013727&permissions=0&scope=bot) para invitar al bot al servidor de Discord.
-
-Comandos:
+## Comandos
 * $jugar: para empezar una nueva partida.
 * $reiniciar: para reiniciar la partida que tienes.
 * $repetir: tal vez no juegas desde varios días y necesitas saber donde habías quedado.
