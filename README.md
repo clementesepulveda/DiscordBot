@@ -5,10 +5,10 @@ Aga click [acá](https://discord.com/api/oauth2/authorize?client_id=905558590042
 Tarea 2 de Creación de Videojuegos, Ingeniería PUC - Fecha 05/11/2021. 
 
 Integrantes:
-	- Clemente Sepúlveda
-	- Santiago Torres
-	- Gary Fredes
-	- Camilo Berríos
+Markup : * Clemente Sepúlveda
+		 * Santiago Torres
+		 * Gary Fredes
+		 * Camilo Berríos
 
 ## -NOMBRE JUEGO-
 
