@@ -28,9 +28,9 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
                    "El aldeano te lleva a su casa, durante el camino le diste más detalles de lo que sabes y de lo que pasó, el hombre después de un rato comienza a creer tu historia.\n"
                    "Te cuenta que por estos lugares la vida siempre a sido cruel e injusta, sería bueno que el  héroe les prestara su fuerza...\n"
                    "Luego de contar tu historia al hombre, te das cuenta que no puedes hacer esto solo",
-                  [Path(13, "Le cuentas al hombre que necesitas ayuda,")]),
+                  [Path(13, "Le cuentas al hombre que necesitas ayuda")]),
           13: Nodo("El hombre resultó ser el alcalde de la pequeña localidad, decide ayudarte... Pronto se corre la voz entre los necesitados. Luego de unos días se ha reunido un buen pelotón de gente. "
-                   "La gente harta de los malos tratos que recibe por parte de la aristocracia decide confiar en ti, ven una pequeña luz de esperanzas de acabar con su sufrimiento.",
+                   "La gente harta de los malos tratos que recibe por parte de la aristocracia decide confiar en tí, ven una pequeña luz de esperanzas de acabar con su sufrimiento.",
                   [Path(14, "Ir con tus nuevos amigos a derrocar a la aristocracia "), Path(26, "Entrenar más antes de atacar")]),
           14: Nodo("Todos los miembros de tu comitiva luchan con ahínco. Sin embargo, la falta de habilidad es notoria.",
                   [Path(15, "seguir luchando contra la gran defensa aristocrática")]),
@@ -107,7 +107,7 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
                    "Luchan contra el héroe enemigo pero tú y Mart no tienen buena sincronización... si tan solo hubiesen entrenado más juntos...\n"
                    "Debido a esto y al cansancio el enemigo apuñala a Mart en un descuido.",
                   [Path(39, "Continuar luchando")]),
-          39: Nodo("Debido al cansancio acumulado en ti, no eres capaz de super al enemigo, repentinamente eres atravesado por"
+          39: Nodo("Debido al cansancio acumulado en tí, no eres capaz de super al enemigo, repentinamente eres atravesado por"
                    " su espada...",
                   [Path(15, "Continuar...")]),
           }
