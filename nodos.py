@@ -53,7 +53,7 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
           28: Nodo("Emprendes la retirada, pero tus hombres con esta orden han perdido la moral y retroceden desorganizados, las fuerzas enemigas "
                    "les dan alcance.",
                    [Path(15, " Decides utilizar formaciones que no fueron enseñadas por Mart.")]),
-          29: Nodo("Al iniciar la batalla, pierdes de vista a Mart de inmediato, decides conentrarte en la batalla, "
+          29: Nodo("Al iniciar la batalla, pierdes de vista a Mart de inmediato, decides concentrarte en la batalla, "
                    "Luego de horas de batallas comiensas a notar la superioridad que tienes, las tropas enemigas luchan pobremente"
                    " en contra de tus formaciones, finalmente luego de una ardua batalla logran asegurar el palacio. Todos cantan por el heroe.",
                   [Path(17, "Rechazar el canto y lideras la exploración del palacio"), Path(19, "El grupo necesita relajarte, asumir la posición de heroe y unirte al festejo")]),
@@ -89,9 +89,9 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
           32: Nodo("Emprendes la retirada, pero tus hombres con esta orden han perdido la moral y retroceden desorganizados, las fuerzas enemigas "
                    "les dan alcance.",
                    [Path(15, " Decides utilizar formaciones que no haya visto Mart.")]),
-          33: Nodo("Al iniciar la batalla, pierdes de vista a Mart de inmediato, decides conentrarte en la batalla, "
-                   "Luego de horas de batallas comiensas a notar la superioridad que tienes, las tropas enemigas luchan pobremente"
-                   " en contra de tus formaciones, finalmente luego de una ardua batalla logran asegurar el palacio. Todos cantan por el heroe.",
+          33: Nodo("Al iniciar la batalla, pierdes de vista a Mart de inmediato, decides concentrarte en la batalla, "
+                   "Luego de horas de batallas logran superar con dificultad al enemigo, "
+                   " finalmente luego de una ardua batalla logran asegurar el palacio. Todos cantan por el heroe. Estás bastante agotado.",
                   [Path(34, "Rechazar el canto y lideras la exploración del palacio"), Path(19, "El grupo necesita relajarte, asumir la posición de heroe y unirte al festejo")]),
           34: Nodo("Satisfecho con tu desición, caminas por los grandes pasillos del palacio",
                   [Path(35, "Seguir explorando en busca de fugitivos")]),
