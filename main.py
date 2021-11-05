@@ -41,6 +41,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    response = ''
     if message.author.name not in client_states:
         client_states[message.author.name] = -1 # para saber cuando juega o no
 
@@ -99,7 +100,8 @@ async def on_message(message):
             response = "```Necesitas empezar una partida primero, con el comando $jugar. " + \
                        "Para más instrucciones, ocupa el comando $instrucciones```"
 
-    await message.channel.send(response)
+    if response:
+        await message.channel.send(response)
 
 
 
