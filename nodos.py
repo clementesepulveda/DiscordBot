@@ -1,6 +1,7 @@
 from objetos import * # clases Path y Nodo
 
-NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delicioso almuerzo. La vida es buena.",
+NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delicioso almuerzo. Todo esto es gracias a tu padre, el héroe del reino "
+                  "Zarene. Tras años de paz con el reino Cinait, no ha sido necesario que levantes ni siquiera un dedo. La vida es buena.",
                   [Path(1, "continuar")]),
           1: Nodo("Escuchas gritos provenientes de afuera.",
                   [Path(2, "seguir comiendo"), Path(3, "ir a la ventana")]),
