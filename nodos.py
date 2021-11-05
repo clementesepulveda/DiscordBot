@@ -104,7 +104,7 @@ NODOS = { 0: Nodo("Estas en tu habitación, lleno de lujos disfrutando tu delici
                   [Path(15, "Continuar luchando.")]),
           38: Nodo("Mientras llamas por ayuda los ataques del héroe rival te dejan sin aliento. Repentinamente aparece Mart!, el maldito logró escabullirse... "
                    "Para tu sorpresa se coloca a tu lado apuntando su espada a tu enemigo.\n"
-                   "Luchan contra el héroe enemigo pero tú y Mart no tienen buena sincronización... si tan solo...\n"
+                   "Luchan contra el héroe enemigo pero tú y Mart no tienen buena sincronización... si tan solo hubiesen entrenado más juntos...\n"
                    "Debido a esto y al cansancio el enemigo apuñala a Mart en un descuido.",
                   [Path(39, "Continuar luchando")]),
           39: Nodo("Debido al cansancio acumulado en ti, no eres capaz de super al enemigo, repentinamente eres atravesado por"
